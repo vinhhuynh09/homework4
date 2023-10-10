@@ -1,0 +1,6 @@
+1. No, the change inside increment_int_a does not change the variable a after the function call.
+2. Yes, the change inside increment_int_b does change the variable b after the function call.
+3. The answers to #1 and #2 are different because in #1, you are dealing with an immutable integer. When 'a' is passed to the function, it is
+being passed by value so the value of a in the function increment_int_a() is local and will not affect the value of 'a' in the main. However, in
+#2, you are dealing with a mutable dictionary. When 'b' is passed to the function, it is being passed by reference so the changes made for 'b'
+in the function will also have the same changes made to the varible 'b' in the main.

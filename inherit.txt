@@ -1,0 +1,11 @@
+One use for why you would use inheritance in a program is to allow for code reusability. Inheritance involves creating a base class and
+derived classes from the base case. Therefore, code from the base class can be reused in the derived class. Instead of needing to rewrite
+the same code for each class, inheritance allows you to extend derived classes to base classes. This way the amount of repeated code is limited
+and makes the program easier to maintain. For example, if there is a base class named "Animal", you can create subclasses such as "Dog" and
+"Cat" which both have some similar properties so both derived classes can reuse some of the function implemented in the Animal class.
+
+A second use for why you would use inheritance in a program is to use polymorphism. In order for polymorphism to occur, there must be
+inheritance involved. Polymorphism allows objects of various classes to be treated as objects of a superclass. This allows for implementing
+more generic code for objects of different classes, as long as they are all derived from the same parent class. This makes the code simpler
+as objects of different classes can be implemented in similar fashion. For example, if you have a parent class "Shape" with the derived classes
+"Circle" and "Rectangle", polymorphism allows you to implement code for each shape without knowing what type of shape they are.
